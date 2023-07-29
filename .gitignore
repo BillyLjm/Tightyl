@@ -5,11 +5,4 @@
 .nrepl-*
 
 .lein-*
-*.gcode
-*.scad
 /target
-*.stl
-*.ai
-*.svg
-/.idea/
-/dactyl-manuform-mini-keyboard.iml
