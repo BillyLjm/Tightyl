@@ -349,6 +349,7 @@
 (def thumb (thumb-layout single-plate))
 (def thumb-fill (thumb-layout filled-plate))
 (def thumb-space-below (thumb-layout switch-bottom))
+
 ;;;;;;;;;;
 ;; Case ;;
 ;;;;;;;;;;
@@ -544,18 +545,17 @@
 (def screw-insert-screw-holes (screw-insert-all-shapes 2.7 2.7 350))
 
 
-
 (def usb-holder (mirror [-1 0 0]
                     (import "../things/holder.stl")))
 
-(def usb-holder (translate [-40.5 47.5 bottom-height] usb-holder))
+(def usb-holder (translate [-43.5 47.5 bottom-height] usb-holder))
 (def usb-holder-space
   (translate [0 0 (/ (+  bottom-height 8.2) 2)]
   (extrude-linear {:height (+ bottom-height 8.2) :twist 0 :convexity 0}
                   (offset 0.1
                           (project usb-holder)))))
 
-(def interconnect (mirror [-1 0 0]
+(def interconnect (rotate [0 (Math/toRadians 90) 0]
                     (import "../things/interconnect.stl")))
 (def interconnect (translate [-48 47.5 20] interconnect))
 

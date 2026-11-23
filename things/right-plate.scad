@@ -44698,7 +44698,7 @@ difference () {
                   linear_extrude (height=10.2, twist=0.0, convexity=0, center=true){
                     offset (r = 0.1) {
                       projection (cut = false) {
-                        translate ([-40.5, 47.5, 2]) {
+                        translate ([-43.5, 47.5, 2]) {
                           mirror ([-1, 0, 0]) {
                             import ("../things/holder.stl");
                           }
