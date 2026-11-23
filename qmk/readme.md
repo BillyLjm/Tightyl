@@ -1,15 +1,11 @@
 # Tightyl
 
-![tightyl](imgur.com image replace me!)
+![Tightyl Layout](https://raw.githubusercontent.com/BillyLjm/Tightyl/master/img/tightyl_layout.png)
 
-This is the 5x6 Dactyl Manuform, but with a more compact 3-key Minidox-esque thumb cluster.
-
-There are two forms of this keyboard:
-- Flat PCB-based split keyboard
-- 3D printable Dactyl Manuform case, which has to be handwired.
+This is the 5x6 Dactyl Manuform, but with a more compact 3-key Minidox-esque thumb cluster (and more compact case).
 
 * Keyboard Maintainer: [BillyLjm](https://github.com/BillyLjm)
-* Hardware Supported: Tightyl PCB, Handwired; RP2040 & clones
+* Hardware Supported: Handwired; RP2040 & clones
 * Hardware Availability: https://github.com/BillyLjm/Tightyl
 
 Make example for this keyboard (after setting up your build environment):

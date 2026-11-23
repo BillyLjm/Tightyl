@@ -1,0 +1,122 @@
+layout: {qmk_keyboard: tightyl, layout_name: LAYOUT}
+layers:
+  L0: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', LALT, Q, W, E, R, T, Y, U, I, O, P, '-', LSFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTL, Z, X,
+    C, V, B, N, M, ',', ., /, \, ESC, LGUI, '[', ']', L2, SPC, TAB, ENT, BSPC, L1]
+  L1:
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - DEL
+  - {t: ▽, type: trans}
+  - NUM
+  - INS
+  - SCRL
+  - MUTE
+  - '['
+  - ']'
+  - P7
+  - P8
+  - P9
+  - PPLS
+  - PAST
+  - {t: ▽, type: trans}
+  - HOME
+  - PGUP
+  - PGDN
+  - END
+  - (
+  - )
+  - P4
+  - P5
+  - P6
+  - PMNS
+  - PSLS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - P1
+  - P2
+  - P3
+  - '='
+  - PENT
+  - {t: ▽, type: trans}
+  - PSCR
+  - P0
+  - PDOT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  L2:
+  - F12
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - NUM
+  - INS
+  - SCRL
+  - MUTE
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RGHT
+  - {t: ▽, type: trans}
+  - (
+  - )
+  - MPRV
+  - MPLY
+  - MNXT
+  - {t: ▽, type: trans}
+  - VOLU
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLD
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '='
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - {t: ▽, type: trans}

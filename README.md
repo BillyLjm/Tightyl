@@ -18,7 +18,7 @@ This is a fork of the [Tightyl](https://github.com/okke-formsma/dactyl-manuform-
 I only made small changes to the original Tightyl design: completely preserving the exterior, but made some tweaks to make it easier to print on my 3d printer. Changes are documented below.
 
  - Added a GX12 mount hole; can be modified for any other panel mount connectors (e.g. GX16) *(trrs might short the microcontroller when hotplugging)*
- - Added a holder for the STM32 blue-pill or black pill
+ - Added a holder for a raspberry pi pico (or clones)
  - Made walls thicker *(the original had thin wall print defects near the thumb cluster; at the sharp angle of the base and the topmost horn)*
  - Moved bottom screw posts to connect to the walls, and made them thicker and more robust
 
