@@ -63,8 +63,22 @@ For the left half, just mirror the right half in your slicer software.
 
 1. Print the case parts in a 3D printer.
 2. Add M3 heat set inserts to the circular posts at the bottom of the case
-3. Install the switches into the case, and wire it up following `/qmk/keyboard.json`.
-4. Flash the qmk firmware into the micronctoller. Instructions are in `qmk/readme.md`.
+3. Install the switches into the case, and wire it up following the wiring diagram below.
+4. Flash the qmk firmware in `qmk/` into the microcontroller. Instructions are in `qmk/readme.md`.
+
+### Wiring Diagram
+
+#### Right Half
+
+![Wiring diagram of the right half](img/wiring_right.svg)
+
+#### Left Half
+
+![Wiring diagram of the left half](img/wiring_left.svg)
+
+## Keymap
+
+![Default keymap](img/keymap.svg)
 
 ## License
 
